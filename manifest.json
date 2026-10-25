@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Puzzle Blocker",
+  "version": "1.1",
+  "description": "Lock websites until you solve a physical puzzle.",
+  "permissions": ["declarativeNetRequest", "storage", "alarms"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Puzzle Blocker</title>
+  <style>
+    body { font-family: sans-serif; width: 280px; padding: 8px; }
+    input { width: 62%; }
+    ul { padding-left: 18px; }
+    #status { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h3>Puzzle Blocker</h3>
+  <p>Sites you add stay locked until you win the maze.</p>
+
+  <input id="site" placeholder="instagram.com">
+  <button id="add">Lock site</button>
+
+  <ul id="list"></ul>
+
+  <button id="connect">Connect Arduino</button>
+  <button id="solve" hidden>Simulate Puzzle Solved</button>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
